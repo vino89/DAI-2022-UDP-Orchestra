@@ -1,0 +1,1 @@
+docker build -t dai/musician -f Dockerfile .

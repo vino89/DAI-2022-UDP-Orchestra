@@ -1,0 +1,7 @@
+{
+  "name": "auditor",
+  "main": "auditor.js",
+    "dependencies": {
+      "dayjs": "^1.11.7"
+    }
+}
