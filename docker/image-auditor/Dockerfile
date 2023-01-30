@@ -5,4 +5,4 @@ COPY src /opt/app/
 
 RUN npm install
 
-CMD ["node", "/opt/app/auditor.js"]
+ENTRYPOINT ["node",  "/opt/app/auditor.js"]

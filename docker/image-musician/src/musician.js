@@ -25,7 +25,7 @@ if(argv.length != 3 || !(argv[2] in instrumentSounds)){
     process.exit(1);
 }
 
-const instrument = argv[2];
+const instrument = process.argv[2];
 const sound = instrumentSounds[instrument];
 const musician_name = uuid();
 
