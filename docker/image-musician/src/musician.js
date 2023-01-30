@@ -21,11 +21,11 @@ if(argv.length != 3 || !(argv[2] in instrumentSounds)){
 
 const instrument = process.argv[2];
 const sound = instrumentSounds[instrument];
-const musician_name = uuid();
+const id = uuid();
 
 // prépare le payload sous format JSON
-const payload = JSON.stringify({
-    musician_name,
+const payload = JSON.stringify({    
+    uuid: id,
     sound
 });
 

@@ -1,3 +1,3 @@
-exports.MULTICAST_ADDRESS = "230.0.0.8";
-exports.PORT = 5555;
-exports.INTERVAL = 2000;
+exports.MULTICAST_ADDRESS = "231.6.7.9";
+exports.PORT = 8059;
+exports.INTERVAL = 1000;
