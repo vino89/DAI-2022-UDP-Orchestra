@@ -3,12 +3,6 @@ const dgram = require('dgram');
 const { argv } = require('process')
 const { v4: uuid } = require('uuid')
 
-const hostname = mus_protocol.MULTICAST_ADDRESS;
-const port = mus_protocol.PORT;
-
-// Datagram socket, used to send datagrams
-const musician_socket = dgram.createSocket('udp4');
-
 const instrumentSounds = {
     piano: 'ti-ta-ti',
     trumpet: 'pouet',
